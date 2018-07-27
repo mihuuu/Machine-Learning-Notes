@@ -1,10 +1,10 @@
 ## #1 Notes
 
-###Introduction
+### Introduction
 
 > A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.  (Tom Mitchell)
 
-
+<br/>
 
 #### Supervised Learning
 
@@ -22,7 +22,7 @@
 
   *eg: Given a patient with a tumor, predict whether the tumor is malignant or benign.* 
 
-
+<br/>
 
 ####Unsupervised Learning
 
@@ -36,7 +36,7 @@
 
   *Eg: The "Cocktail Party Algorithm", allows you to find structure in a chaotic environment. (i.e. identifying individual voices and music from a mesh of sounds at a cocktail party).*
 
-
+<br/><br/>
 
 
 
@@ -48,7 +48,7 @@
 
 ![1](img/1.png)
 
-
+<br/>
 
 #### Cost Function
 
@@ -56,7 +56,7 @@
 
 ![cost_func](img/cost_func.png)
 
-
+<br/>
 
 **illustration**
 
@@ -68,15 +68,15 @@
 
 
 
+<br/>
 
-
-#### Gradient Descent
+### Gradient Descent
 
 > To reach the bottom (minimum value), we can take the derivative (the tangential line to a function) of our cost function. The slope of the tangent is the derivative at that point and it will give us a direction to move towards. We make steps down the cost function in the direction with the steepest descent. The size of each step is determined by the **parameter α**, which is called the **learning rate**. 
 
 ![gradient_descent](img/gradient_descent.png)
 
-
+<br/>
 
 The gradient descent algorithm is:
 
@@ -86,13 +86,13 @@ $$\theta_j := \theta_j - \alpha \frac{\partial}{\partial \theta_j} J(\theta_0, \
 
 where j=0,1 represents the feature index number
 
-
+<br/>
 
 > We should adjust our parameter $\alpha$ to ensure that the gradient descent algorithm converges in a reasonable time. Failure to converge or too much time to obtain the minimum value imply that our step size is wrong. 
 
 ![learning_rate](img/learning_rate.png)
 
-
+<br/>
 
 For **Linear Regression**, We can substitute our actual cost function and our actual hypothesis function and modify the equation to : 
 
