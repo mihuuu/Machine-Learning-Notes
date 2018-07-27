@@ -54,7 +54,7 @@
 
 > We can measure the accuracy of our hypothesis function by using a **cost function**. This takes an average difference (actually a fancier version of an average) of all the results of the hypothesis with inputs from x's and the actual output y's. 
 
-![cost_func](img\cost_func.png)
+![cost_func](img/cost_func.png)
 
 
 
@@ -64,7 +64,7 @@
 >
 > Our goal is to minimize the cost function
 
-![cost_func_note](img\cost_func_note.png)
+![cost_func_note](img/cost_func_note.png)
 
 
 
@@ -74,7 +74,7 @@
 
 > To reach the bottom (minimum value), we can take the derivative (the tangential line to a function) of our cost function. The slope of the tangent is the derivative at that point and it will give us a direction to move towards. We make steps down the cost function in the direction with the steepest descent. The size of each step is determined by the **parameter α**, which is called the **learning rate**. 
 
-![gradient_descent](img\gradient_descent.png)
+![gradient_descent](img/gradient_descent.png)
 
 
 
@@ -90,12 +90,12 @@ where j=0,1 represents the feature index number
 
 > We should adjust our parameter $\alpha$ to ensure that the gradient descent algorithm converges in a reasonable time. Failure to converge or too much time to obtain the minimum value imply that our step size is wrong. 
 
-![learning_rate](img\learning_rate.png)
+![learning_rate](img/learning_rate.png)
 
 
 
 For **Linear Regression**, We can substitute our actual cost function and our actual hypothesis function and modify the equation to : 
 
-![modified_converge](img\modified_converge.png)
+![modified_converge](img/modified_converge.png)
 
 where m is the size of the training set, $\theta_0$ a constant that will be changing simultaneously with$ \theta_1$ and $x_{i}, y_{i}$are values of the given training set (data). 
